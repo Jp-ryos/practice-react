@@ -1,14 +1,6 @@
 import React, { StrictMode } from "react";
 import ReactDOM from "react-dom";
-
-const App = () => {
-  return (
-    <>
-      <h1>Hello World</h1>
-      <p>こんにちは。こちらはテストページです。</p>
-    </>
-  );
-};
+import App from "./App";
 
 ReactDOM.render(
   <StrictMode>
